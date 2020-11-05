@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Source Sans Pro, Helvetica,sans-serif
+}
+body{
+    background-color: #0E0B16;
+}
+
+/*---------Navigation----------*/
+.navbar-brand img{
+    height: 70px;
+    padding: auto;
+}
+.navbar{
+    background-color: #0E0B16!important; 
+    border-bottom: 2px solid #4714f6;  
+}
+.navbar-nav li{
+    padding: 0 50px;
+}
+.nav-link{
+    color: #ffffff!important;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-tam{
+    cursor: pointer;
+    font-size: 23px;
+    color: #ffffff;  
+}
+.nav-tam .fa{
+    padding: 0 15px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler .fa{
+    color: #ffffff;
+    font-size: 30px;
+}
+.dropdown-menu{
+    background: #4714f6;
+    border: 2px solid #0E0B16 ;
+}
+.dropdown-menu .dropdown-item{
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+
+}
+
+
+@media(max-width:990px){
+    .nav-tam{
+        display: none;
+    }
+}
+
+.carousel-item img{
+    width: auto;
+    height: auto;
+}
+
+/*---------about---------*/
+
+.about{
+    margin: 80px auto;
+}
+.about h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    margin: auto;
+}
+.about .text{
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #ffffff;
+    margin: 20px;
+}
+
+
+/*---------community------------*/
+
+.commun{
+    margin: 80px auto;
+}
+.commun1 h2{
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    margin: auto;
+}
+.card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card-img-overlay a:hover{
+    text-decoration: none;
+    color: #4714f6;
+}
+.garis{
+    width: 100px;
+    height: 3px;
+    box-sizing: border-box;
+    border: 2px solid  #4714f6;
+    border-radius: 20%;
+    background: #4714f6;
+    margin: 30px auto 80px auto;
+}
+
+/*---------teams---------*/
+
+.tim{
+    margin: 80px auto;
+}
+.tim1 h3{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    margin: auto;
+}
+.logoTim img{
+    width: 200px;
+    height: 200px;
+}
+
+.logoTim a:hover{
+    background: darkblue;
+    width: 200px;
+    height: 200px;
+    border: .5px solid #ffffff;
+    border-radius: 2%;
+}
+
+/*---------footer---------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px ;
+    background: darkblue;
+}
+.footer .footerKiri{
+    color: #ffffff;
+    text-align: center;
+    font-size: .875rem;
+    margin-top: 25px;
+}
+.footer .footerKanan{
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
